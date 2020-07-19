@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>BOOKS FOR LIFE</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">
+                    BOOKORAMA
+                </h1>
+                <p>Books that will change your attitude</p>
+                <form  id="search-books">
+                    <input type="text" placeholder="SEARCH BOOKS...."/>
+
+                </form>
+            </div>
+
+        </header>
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name">
+                        Wings of Fire
+                    </span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">
+                        Attitude is Everything
+                    </span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">
+                        Subtle Art of Not Giving a Fuck
+                    </span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="name">
+                        Five am Club
+                    </span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="book-hide">
+            <input type="checkbox" id="hide"/>
+            <label for="hide">Hide all Books..</label>
+        </form>
+        <form  id="add-book">
+            
+            <input type="text" placeholder="Add a Book...."/>
+            <button>Add</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
